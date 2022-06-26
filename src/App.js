@@ -1,15 +1,9 @@
 import './App.css';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Home from './containers/Home';
 
 function App() {
   return (
 
-    <Router>
-      <Routes>
-        <Route path="/portfolio_website" element={<Home />} />
-      </Routes>
-    </Router>
+    <h1>Site under construction</h1>
   );
 }
 
