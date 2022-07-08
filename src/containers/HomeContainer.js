@@ -6,6 +6,7 @@ const HomeContainer = () => {
     return (
         <div className="page-container">
             <div className="headers">
+                <img id="profile-picture" src="https://brandyourself.com/blog/wp-content/uploads/linkedin-profile-picture-too-close.png" alt='profile_picture' />
                 <h1>Shuna McCallum</h1>
                 <h3>Software Developer</h3>
             </div>

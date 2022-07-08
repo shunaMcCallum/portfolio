@@ -1,4 +1,5 @@
 .nav-bar-list-container {
+    color: white;
     display: flex;
     justify-content: right;
     /* border-style: solid;
