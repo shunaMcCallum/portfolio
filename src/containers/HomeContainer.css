@@ -1,0 +1,37 @@
+.page-container {
+    background-color: white;
+    min-height: 100vh;
+}
+
+.headers {
+    background-color: rgb(200, 212, 223);
+    min-height: 200px;
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color:rgb(172, 189, 202);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headers > h1 {
+    margin-bottom: 5px;
+    font-size: 60px;
+}
+
+.headers > h3 {
+    margin-top: 5px;
+    color: rgb(109, 125, 125);
+}
+
+.homepage-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
