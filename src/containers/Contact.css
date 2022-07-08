@@ -1,0 +1,10 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+
+.contact-container>h2 {
+    color: white;
+}
