@@ -11,7 +11,7 @@ const HomeContainer = () => {
             </section>
 
             <div className="headers">
-                <img id="profile-picture" src="https://brandyourself.com/blog/wp-content/uploads/linkedin-profile-picture-too-close.png" alt='profile_picture' />
+                <img id="profile-picture" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" alt='profile_picture' />
                 <h1>Shuna McCallum</h1>
                 <h3>Software Developer</h3>
             </div>
@@ -21,10 +21,50 @@ const HomeContainer = () => {
             </section>
 
             <div className="homepage-content">
-                <p>Junior Software Developer, recent graduate of Professional Software Development course at CodeClan.</p>
-                <p>Key Skills include:</p>
-                <p>Technology competencies include:</p>
-                <p>Please click on Projects for examples of projects using the above skills and technologies.</p>
+                <p>Junior Full-stack Software Developer, recent graduate of Professional Software Development course at CodeClan.</p>
+                <p><b>Key skills, experience and competencies:</b></p>
+                <div className="skills-container">
+                    <div className ="skills-list">
+                    <p>Programming Languages</p>
+                    <ul>
+                        <li>Java</li>
+                        <li>JavaScript, ReactJS</li>
+                        <li>Python</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SQLite</li>
+                        <li>MongoDB</li>
+                    </ul>
+                    </div>
+                    <div className="skills-list">
+                    <p>Test-Driven Development</p>
+                    <ul>
+                        <li>Unit Testing</li>
+                        <li>Dynamic Testing</li>
+                        <li>Integration Testing</li>
+                        <li>System Testing</li>
+                    </ul>
+                    </div>
+                    <div className="skills-list">
+                    <p>Program Design Principles</p>
+                    <ul>
+                        <li>Object-Oriented Programming</li>
+                        <li>SOLID Principles</li>
+                        <li>RESTful workflows</li>
+                        <li>UX Design principles</li>
+                    </ul>
+                    </div>
+                    <div className="skills-list">
+                    <p>Development Methodologies and Practices</p>
+                    <ul>
+                        <li>Agile development</li>
+                        <li>Scrum</li>
+                        <li>Kanban</li>
+                        <li>Paired Programming</li>
+                        <li>Mob Programming</li>
+                    </ul>
+                    </div>
+                </div>
             </div>
         </div>
     )
