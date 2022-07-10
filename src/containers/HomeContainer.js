@@ -21,8 +21,8 @@ const HomeContainer = () => {
             </section>
 
             <div className="homepage-content">
-                <p>Junior Full-stack Software Developer, recent graduate of Professional Software Development course at CodeClan.</p>
-                <p><b>Key skills, experience and competencies:</b></p>
+                <p>Junior Software Developer with a passion for problem solving and learning new skills, currently enrolled in the Professional Software Development course at CodeClan.</p>
+                <h2>Key skills, experience and competencies:</h2>
                 <div className="skills-container">
                     <div className ="skills-list">
                     <p>Programming Languages</p>

@@ -1,8 +1,13 @@
 .about-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;;
-}
-.about-container > h2 {
+    align-items: center;
+    text-align: center;
     color: white;
+}
+
+.about-container>p {
+    max-width: 900px;
+    margin-top: 5px;
 }
