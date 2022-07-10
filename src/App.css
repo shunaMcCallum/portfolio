@@ -1,4 +1,5 @@
 .app-container {
     background-color: rgb(34, 27, 35);
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 40px;
 }
