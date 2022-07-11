@@ -15,13 +15,13 @@
 }
 
 .border {
-    width: 3000px;
+    width: 100%;
     height: 3px;
     animation: rotate 3s infinite linear;
 
     background: rgb(48, 255, 144);
     background: linear-gradient(to right, rgb(255, 255, 0) 0%,
-            rgb(153, 50, 204) 75%, rgb(255, 255, 0) 100%);
+    rgb(153, 50, 204) 75%, rgb(255, 255, 0) 100%);
 }
 
 @keyframes rotate {
