@@ -5,6 +5,7 @@ import Projects from './containers/Projects';
 import About from './containers/About';
 import Contact from './containers/Contact';
 import './App.css';
+import GymProject from './components/GymProject';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Projects />
       <Contact />
+      <GymProject />
       </div>
   );
 }

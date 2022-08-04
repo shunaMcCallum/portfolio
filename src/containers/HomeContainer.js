@@ -27,6 +27,7 @@ const HomeContainer = () => {
                     <div className="skills-list">
                         <p><b>Programming and Database Languages</b></p>
                         <ul>
+                            {/* ADD A LITTLE POP-UP WHICH SHOWS WHICH PROJECT(S) I'VE USED THESE THINGS ON */}
                             <li>Java</li>
                             <li>JavaScript, ReactJS</li>
                             <li>Python</li>
@@ -39,6 +40,7 @@ const HomeContainer = () => {
                     <div className="skills-list">
                         <p><b>Programming Design Principles</b></p>
                         <ul>
+                            {/* ADD A LITTLE POP-UP WHICH SHOWS WHICH PROJECT(S) I'VE USED THESE THINGS ON */}
                             <li>Object-Oriented Programming</li>
                             <li>SOLID Principles</li>
                             <li>RESTful workflows</li>
@@ -48,6 +50,7 @@ const HomeContainer = () => {
                     <div className="skills-list">
                         <p><b>Development Methodologies and Best Practice</b>s</p>
                         <ul>
+                            {/* ADD A LITTLE POP-UP WHICH SHOWS WHICH PROJECT(S) I'VE USED THESE THINGS ON */}
                             <li>Test-Driven Development</li>
                             <li>Agile development</li>
                             <li>Scrum</li>
