@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/portfolio/static/js/main.a3314d68.js",
+    "main.css": "/portfolio/static/css/main.ac7026c0.css",
+    "main.js": "/portfolio/static/js/main.4809fe3d.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio/static/js/787.749b4a44.chunk.js",
+    "static/media/studio_ghibli_filmpage.png": "/portfolio/static/media/studio_ghibli_filmpage.c323d7a3078624690de9.png",
+    "static/media/gym_app_homepage.png": "/portfolio/static/media/gym_app_homepage.0170c982f2592cd8ad75.png",
     "index.html": "/portfolio/index.html",
-    "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
-    "main.a3314d68.js.map": "/portfolio/static/js/main.a3314d68.js.map",
+    "main.ac7026c0.css.map": "/portfolio/static/css/main.ac7026c0.css.map",
+    "main.4809fe3d.js.map": "/portfolio/static/js/main.4809fe3d.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.a3314d68.js"
+    "static/css/main.ac7026c0.css",
+    "static/js/main.4809fe3d.js"
   ]
 }
