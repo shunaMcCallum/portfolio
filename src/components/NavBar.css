@@ -5,6 +5,7 @@
     /* border-style: solid;
     border-width: 5px;
     border-color: black; */
+    text-decoration: none;
 }
 
 .nav-bar-list {
@@ -16,4 +17,17 @@
     /* border-style: solid;
     border-width: 5px;
     border-color:black; */
+
 }
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+}
+
+

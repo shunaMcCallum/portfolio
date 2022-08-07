@@ -6,15 +6,13 @@ const About = () => {
     return (
         <div className="about-container">
             <h2>About Me</h2>
-            <p> Hello! My name is Shuna and I'm a Junior Software Developer.</p>
-            <p> I'm a career-changer with a background in planning and project management within the wonderful world of opera.</p>
-            <p> I decided to start a new career in software development because I got tired of negotiating contracts with performing horses.
-                That, and I wanted to be part of one of the most innovative industries out there and have more opportunity to make an imapct
-                on the world through my work.</p>
-            <p> If you'd like to learn more about me please click here: </p>
-            <button>More About Me</button>
-            <p> Or, if you'd like to see some of my projects please see an overview below and you can click through to see more about each
-                one.</p>
+            <p> Hello! I'm Shuna.</p>
+            <p> I'm a career-changer with a background in opera planning.</p>
+            <p> I decided to move to software development because I got tired of negotiating contracts with mu horses.</p>
+            <p className="about-final-para"> If you'd like to learn more about me please click here: </p>
+            <button className="about-button">Learn More</button>
+            <div className="page-divider"></div>
+            
             
             {/* add a new page and a button to reveal a longer story */}
             

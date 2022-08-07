@@ -6,17 +6,28 @@ import About from './containers/About';
 import Contact from './containers/Contact';
 import './App.css';
 import GymProject from './components/GymProject';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function App() {
+
+  const projectButtonClick = () => {
+    window.location.pathname("/portfolio/gym_app")
+  }
+
   return (
     <div className="app-container">
-      <NavBar />
-      <HomeContainer />
-      <About />
-      <Projects />
-      <Contact />
-      <GymProject />
-      </div>
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route exact path="/portfolio" element={<HomeContainer />} />
+          <Route exact path="/portfolio/about" element={<About />} />
+          <Route exact path="/portfolio/projects" element={<Projects projectButtonClick={projectButtonClick} />} />
+          <Route exact path="/portfolio/gym_app" element={<GymProject />} />
+          <Route exact path="/portfolio/contact" element={<Contact />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 

@@ -1,5 +1,8 @@
 import React from 'react';
 import './HomeContainer.css';
+import About from './About';
+import Projects from './Projects';
+import Contact from './Contact';
 
 const HomeContainer = () => {
 
@@ -21,18 +24,19 @@ const HomeContainer = () => {
             </section>
 
             <div className="homepage-content">
-                <p>Junior Software Developer with a passion for problem solving and learning new skills, currently enrolled in the Professional Software Development course at CodeClan.</p>
-                <h2>Key Skills and Experience:</h2>
+                <p>Junior Software Developer with a passion for solving puzzles and learning new skills, currently enrolled in the Professional Software Development bootcamp course at CodeClan.</p>
+                <div className="page-divider"></div>
+                <h2 className="skills-header">Key Skills and Experience:</h2>
                 <div className="skills-container">
                     <div className="skills-list">
-                        <p><b>Programming and Database Languages</b></p>
+                        <p><b>Languages, Databases and Frameworks</b></p>
                         <ul>
                             {/* ADD A LITTLE POP-UP WHICH SHOWS WHICH PROJECT(S) I'VE USED THESE THINGS ON */}
-                            <li>Java</li>
-                            <li>JavaScript, ReactJS</li>
-                            <li>Python</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
+                            <li>Java & Spring</li>
+                            <li>JavaScript, React & Express</li>
+                            <li>Python & Flask</li>
+                            <li>C#</li>
+                            <li>HTML & CSS</li>
                             <li>SQLite</li>
                             <li>MongoDB</li>
                         </ul>
@@ -58,7 +62,11 @@ const HomeContainer = () => {
                         </ul>
                     </div>
                 </div>
+                <div className="page-divider"></div>
             </div>
+            <About />
+            <Projects />
+            <Contact />
         </div>
     )
 }
