@@ -19,7 +19,7 @@ const HomeContainer = () => {
                 <p> My background is in opera planning - I decided to change career because I got tired of negotiating contracts with performing horses.</p>
                 <p> Feel free to have a snoop around!</p>
                 <div className="page-divider"></div>
-                <h2 className="skills-header">Key Skills and Experience:</h2>
+                <h3 className="skills-header">Key Skills and Experience:</h3>
                 <div className="skills-container">
                     <div className="skills-list">
                         <p><b>Languages, Databases and Frameworks</b></p>

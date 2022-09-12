@@ -37,21 +37,21 @@
 }
 
 .homepage-content>p {
-    max-width: 130vh;
+    max-width: 140vh;
     text-align: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 23px;
 }
 
 .skills-header {
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .skills-container {
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 50px;
 }
 
@@ -62,16 +62,16 @@
     border-style: solid;
     border-color: white;
     border-width: 2px;
-    border-radius: 20px;
+    border-radius: 18px;
 
-    min-width: 440px;
-    max-width: 440px;
+    min-width: 320px;
+    max-width: 320px;
 
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 45px;
+    margin-bottom: -20px;
 
-    font-size: 25px;
+    font-size: 20px;
 
     padding-left: 20px;
     padding-right: 20px;

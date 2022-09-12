@@ -41,7 +41,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: -30px;
     width: 100%;
 }
@@ -50,15 +50,15 @@
     margin-top: 40px;
     margin-bottom: 40px;
     z-index: 1;
-    width: 350px;
+    width: 270px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .moon-image {
-    width: 350px;
-    height: 350px;
+    width: 270px;
+    height: 270px;
     border-radius: 90%;
     background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/402/683/small_2x/night-starry-sky-and-pink-clouds-sunrise-free-vector.jpg);
     background-repeat: no-repeat;
@@ -72,9 +72,9 @@
 }
 
 .clouds {
-    width: 350px;
-    height: 350px;
-    margin-left: -350px;
+    width: 270px;
+    height: 270px;
+    margin-left: -270px;
 
     border-radius: 50%;
     overflow: hidden;
@@ -147,19 +147,19 @@
 
 .header-text {
     z-index: 1;
-    margin-top: -20px;
+    margin-top: -25px;
 }
 
 .title {
     text-align: center;
-    font-size: 95px;
-    margin-bottom: -10px;
+    font-size: 70px;
+    margin-bottom: -25px;
 }
 
 .subTitle {
     color: rgb(205, 186, 221);
-    font-size: 60px;
-    margin-bottom: 80px;
+    font-size: 50px;
+    margin-bottom: 60px;
     text-align: center;
 }
 
