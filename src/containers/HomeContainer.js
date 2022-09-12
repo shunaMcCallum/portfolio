@@ -1,30 +1,23 @@
 import React from 'react';
-import './HomeContainer.css';
-import About from './About';
-import Projects from './Projects';
-import Contact from './Contact';
+import './HomeContainer.scss';
+import Contact from '../components/Contact';
+import Header from '../components/Header';
 
 const HomeContainer = () => {
+
+    const header = "Shuna McCallum";
+    const subHeader = "Software Engineer";
 
     return (
         <div className="page-container">
 
-            <section className="border-wrapper">
-                <div className="border"></div>
-            </section>
-
-            <div className="headers">
-                <img id="profile-picture" src="https://upload.wikimedia.org/wikipedia/commons/8/89/Portrait_Placeholder.png" alt='profile_picture' />
-                <h1>Shuna McCallum</h1>
-                <h3>Software Developer</h3>
-            </div>
-
-            <section className="border-wrapper">
-                <div className="border"></div>
-            </section>
+            <Header header={header} subHeader={subHeader} />
 
             <div className="homepage-content">
-                <p>Junior Software Developer with a passion for solving puzzles and learning new skills, currently enrolled in the Professional Software Development bootcamp course at CodeClan.</p>
+                <p> Hello and welcome! I'm Shuna.</p>
+                <p> I'm a software engineer, recently graduated from the Professional Software Development bootcamp at CodeClan.</p>
+                <p> My background is in opera planning - I decided to change career because I got tired of negotiating contracts with performing horses.</p>
+                <p> Feel free to have a snoop around!</p>
                 <div className="page-divider"></div>
                 <h2 className="skills-header">Key Skills and Experience:</h2>
                 <div className="skills-container">
@@ -35,10 +28,9 @@ const HomeContainer = () => {
                             <li>Java & Spring</li>
                             <li>JavaScript, React & Express</li>
                             <li>Python & Flask</li>
-                            <li>C#</li>
+                            <li>Dart & Flutter</li>
                             <li>HTML & CSS</li>
-                            <li>SQLite</li>
-                            <li>MongoDB</li>
+                            <li>SQLite, MongoDB, PostgreSQL</li>
                         </ul>
                     </div>
                     <div className="skills-list">
@@ -52,7 +44,7 @@ const HomeContainer = () => {
                         </ul>
                     </div>
                     <div className="skills-list">
-                        <p><b>Development Methodologies and Best Practice</b>s</p>
+                        <p><b>Development Methodologies</b></p>
                         <ul>
                             {/* ADD A LITTLE POP-UP WHICH SHOWS WHICH PROJECT(S) I'VE USED THESE THINGS ON */}
                             <li>Test-Driven Development</li>
@@ -62,10 +54,7 @@ const HomeContainer = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="page-divider"></div>
             </div>
-            <About />
-            <Projects />
             <Contact />
         </div>
     )

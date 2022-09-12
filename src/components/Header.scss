@@ -1,0 +1,190 @@
+@import 'animate.css';
+
+.page-headers {
+    width: 100%;
+}
+
+.border-wrapper {
+    width: 100%;
+}
+
+.border {
+    width: 100%;
+    height: 3px;
+    animation: rotate 500s infinite linear;
+    background: linear-gradient(-45deg, rgb(255, 215, 0) 0%,
+            rgb(153, 50, 204) 75%, rgb(255, 215, 0) 100%);
+}
+
+@keyframes rotate {
+    from {
+        background-position: 0;
+    }
+
+    to {
+        background-position: 100000px;
+    }
+}
+
+.headers {
+    background-color: rgb(42, 35, 47);
+    color: white;
+    font-family: rampart;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    width: 100%;
+}
+
+.moon {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    z-index: 1;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.moon-image {
+    width: 350px;
+    height: 350px;
+    border-radius: 90%;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/402/683/small_2x/night-starry-sky-and-pink-clouds-sunrise-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 180%;
+    box-shadow: 0 0 50px rgba(219, 230, 224, 1);
+}
+
+.moon-image:hover {
+    box-shadow: 2px 0px 20px 15px white;
+}
+
+.clouds {
+    width: 350px;
+    height: 350px;
+    margin-left: -350px;
+
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.cloud-image1 {
+    position: relative;
+    z-index: 2;
+
+    animation: wind1 25s linear infinite;
+    animation-timing-function: linear;
+    height: 200px;
+    width: 500px;
+    top: -80px;
+}
+
+.cloud-image2 {
+    position: relative;
+    z-index: 2;
+
+    animation: wind2 32s linear infinite;
+    animation-timing-function: linear;
+    height: 200px;
+    width: 500px;
+    margin-left: -700px;
+    top: -80px;
+}
+
+.cloud-image3 {
+    position: relative;
+    z-index: 2;
+
+    animation: wind3 37s linear infinite;
+    animation-timing-function: linear;
+    height: 200px;
+    width: 500px;
+    margin-left: -700px;
+    top: -80px
+}
+
+@keyframes wind1 {
+    from {
+        translate: -450px;
+    }
+
+    to {
+        translate: 450px;
+    }
+}
+
+@keyframes wind2 {
+    from {
+        translate: -600px;
+    }
+
+    to {
+        translate: 500px;
+    }
+}
+
+@keyframes wind3 {
+    from {
+        translate: -800px;
+    }
+
+    to {
+        translate: 700px;
+    }
+}
+
+.header-text {
+    z-index: 1;
+    margin-top: -20px;
+}
+
+.title {
+    text-align: center;
+    font-size: 95px;
+    margin-bottom: -10px;
+}
+
+.subTitle {
+    color: rgb(205, 186, 221);
+    font-size: 60px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.text-animate {
+    display: inline-block;
+    opacity: 0;
+    animation: bounceIn 1s 1s;
+    animation-fill-mode: forwards;
+    min-width: 10px;
+
+}
+
+.text-animate-hover {
+    min-width: 10px;
+    display: inline-block;
+    animation-fill-mode: both;
+
+    &:hover {
+        animation: rubberBand 1s;
+        color: rgb(255, 215, 0);
+    }
+}
+
+@for $i from 1 through 45 {
+    .text-animate._#{$i} {
+        animation-delay: #{$i / 10}s;
+    }
+}

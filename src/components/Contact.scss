@@ -1,0 +1,47 @@
+@import 'animate.css';
+
+.page-divider {
+    width: 80vh;
+    height: 3px;
+    margin-top: 20px;
+    animation: rotate 500s infinite linear;
+
+    background: rgb(48, 255, 144);
+    background: linear-gradient(to right, rgb(255, 215, 0) 0%,
+            rgb(153, 50, 204) 75%, rgb(255, 215, 0) 100%);
+}
+
+@keyframes rotate {
+    from {
+        background-position: 0;
+    }
+
+    to {
+        background-position: 100000px;
+    }
+}
+
+.contact-section-logos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.contact-logo {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: #cdbadd;
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact-logo:hover {
+    animation: rubberBand 1s linear;
+    color: rgb(255, 215, 0);
+}

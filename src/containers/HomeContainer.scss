@@ -1,0 +1,90 @@
+@import 'animate.css';
+
+.page-container {
+    min-height: 60rem;
+}
+
+.page-divider {
+    width: 80vh;
+    height: 3px;
+    margin-top: 20px;
+    animation: rotate 500s infinite linear;
+
+    background: rgb(48, 255, 144);
+    background: linear-gradient(to right, rgb(255, 215, 0) 0%,
+            rgb(153, 50, 204) 75%, rgb(255, 215, 0) 100%);
+}
+
+@keyframes rotate {
+    from {
+        background-position: 0;
+    }
+
+    to {
+        background-position: 100000px;
+    }
+}
+
+.homepage-content {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.homepage-content>p {
+    max-width: 130vh;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.skills-header {
+    margin-top: 50px;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.skills-list {
+    justify-content: center;
+    align-items: center;
+
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 20px;
+
+    min-width: 440px;
+    max-width: 440px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 45px;
+
+    font-size: 25px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.skills-list:hover {
+    animation: rubberBand 1s linear;
+    box-shadow: 1px 1px 10px 6px white;
+}
+
+.skills-list>p {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
