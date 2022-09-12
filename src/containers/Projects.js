@@ -12,15 +12,15 @@ const Projects = () => {
     const navigate = useNavigate();
 
     const handleGymButtonClick = () => {
-        navigate("/shunamccallum.github.io/projects/the_gym")
+        navigate("/portfolio/projects/the_gym")
     }
 
     const handleEducationButtonClick = () => {
-        navigate("/shunamccallum.github.io/projects/hello_world")
+        navigate("/portfolio/projects/hello_world")
     }
 
     const handleMusicButtonClick = () => {
-        navigate("/shunamccallum.github.io/projects/music_elephant")
+        navigate("/portfolio/projects/music_elephant")
     }
 
     return (
