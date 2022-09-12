@@ -1,0 +1,55 @@
+@import 'animate.css';
+
+.nav-bar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar-list-container {
+    display: flex;
+    justify-content: right;
+    text-decoration: none;
+    width: 500px;
+}
+
+.nav-bar-list-container>button {
+    background-color: rgb(34, 27, 35);
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border-style: none;
+
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.nav-bar-list-container>button:hover {
+    cursor: pointer;
+    color: rgb(255, 215, 0);
+    font-weight: 800;
+    animation: rubberBand 1s linear;
+}
+
+.contact-logos {
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    margin: 10px 10px 6px 20px;
+
+}
+
+.logo {
+    min-width: 30px;
+    min-height: 30px;
+    color: #cdbadd;
+}
+
+.logo:hover {
+    animation: rubberBand 1s linear;
+    color: rgb(255, 215, 0);
+}
