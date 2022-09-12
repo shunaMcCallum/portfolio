@@ -1,23 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3d07ca7f.css",
-    "main.js": "/portfolio/static/js/main.249e3e08.js",
+    "main.css": "/portfolio/static/css/main.56ffa8c7.css",
+    "main.js": "/portfolio/static/js/main.51627e76.js",
     "static/js/787.749b4a44.chunk.js": "/portfolio/static/js/787.749b4a44.chunk.js",
     "static/media/RampartOne-Regular.ttf": "/portfolio/static/media/RampartOne-Regular.2460d26f5bdb95e19f32.ttf",
     "static/media/studio_ghibli_filmpage.png": "/portfolio/static/media/studio_ghibli_filmpage.c323d7a3078624690de9.png",
+    "static/media/bike_2.jpg": "/portfolio/static/media/bike_2.d9ff71ef23abfb31a618.jpg",
+    "static/media/sushi_piano.jpg": "/portfolio/static/media/sushi_piano.1a1669f8b517b25250db.jpg",
     "static/media/gym_app_homepage.png": "/portfolio/static/media/gym_app_homepage.0170c982f2592cd8ad75.png",
     "static/media/cloud4-removebg-preview.png": "/portfolio/static/media/cloud4-removebg-preview.e92c3d2d4be83078008e.png",
+    "static/media/flask.png": "/portfolio/static/media/flask.95573c8a8ec44a7779a2.png",
     "static/media/Tajawal-Regular.ttf": "/portfolio/static/media/Tajawal-Regular.e4ac0a5abb7d379e2308.ttf",
     "static/media/Catamaran-Regular.ttf": "/portfolio/static/media/Catamaran-Regular.9d1e07185ada617251f8.ttf",
     "static/media/Telex-Regular.ttf": "/portfolio/static/media/Telex-Regular.2ee212fbdb818dedf8c1.ttf",
     "static/media/cloud-removebg-preview.png": "/portfolio/static/media/cloud-removebg-preview.25f6ed664923b55fa342.png",
+    "static/media/dart.png": "/portfolio/static/media/dart.ae10dddeb58b3503d21f.png",
+    "static/media/postgres.png": "/portfolio/static/media/postgres.be2078d49b922b32db6a.png",
+    "static/media/react.png": "/portfolio/static/media/react.c83c4ba9c194ce25fb1e.png",
+    "static/media/spring.png": "/portfolio/static/media/spring.75447212090fab99b308.png",
+    "static/media/sqlite.png": "/portfolio/static/media/sqlite.1c5b63b50ca1bf9289b1.png",
+    "static/media/python.png": "/portfolio/static/media/python.3d1105a652941e3e8d85.png",
     "index.html": "/portfolio/index.html",
-    "main.3d07ca7f.css.map": "/portfolio/static/css/main.3d07ca7f.css.map",
-    "main.249e3e08.js.map": "/portfolio/static/js/main.249e3e08.js.map",
+    "main.56ffa8c7.css.map": "/portfolio/static/css/main.56ffa8c7.css.map",
+    "main.51627e76.js.map": "/portfolio/static/js/main.51627e76.js.map",
     "787.749b4a44.chunk.js.map": "/portfolio/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d07ca7f.css",
-    "static/js/main.249e3e08.js"
+    "static/css/main.56ffa8c7.css",
+    "static/js/main.51627e76.js"
   ]
 }
