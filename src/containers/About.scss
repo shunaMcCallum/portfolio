@@ -12,31 +12,31 @@
 
 .intro-para {
     margin-top: 5px;
-    font-size: 25px;
+    font-size: 18px;
     text-align: center;
 }
 
 .top-container {
     display: flex;
     justify-content: center;
+    max-width: 85rem;
 }
 
 .top-paras {
     flex-direction: column;
-    margin-right: 60px;
-    font-size: 25px;
-    max-width: 70rem;
+    margin-right: 10px;
+    margin-left: 35px;
+    font-size: 18px;
 }
 
 .top-paras>ul {
     text-align: left;
-    line-height: 35px;
-    font-size: 25px;
+    line-height: 40px;
+    font-size: 18px;
 }
 
 .top-paras>ul>li {
-    margin-top: 40px;
-    margin-bottom: 40px;
+    margin-top: 20px;
 }
 
 figure.about-image {
@@ -45,7 +45,6 @@ figure.about-image {
     justify-content: center;
     position: relative;
     overflow: hidden;
-    width: 100%;
     color: #000000;
     text-align: center;
     -webkit-perspective: 50em;
@@ -62,8 +61,9 @@ figure.about-image * {
 figure.about-image img {
     max-width: 100%;
     vertical-align: top;
-    width: 450px;
-    height: 550px;
+    width: 400px;
+    height: 500px;
+    margin-top: -20px;
 
     border-style: solid;
     border-color: white;
@@ -76,19 +76,19 @@ figure.about-image figcaption {
     margin-right: auto;
     display: flex;
     align-items: center;
-    top: 50%;
-    left: 20px;
-    right: 20px;
+    top: 45%;
+    left: 15px;
+    right: 15px;
     position: absolute;
     opacity: 0;
     z-index: 1;
-    width: 400px;
-    height: 500px;
+    width: 350px;
+    height: 450px;
 }
 
 figure.about-image h4 {
     font-weight: 400;
-    font-size: 25px;
+    font-size: 18px;
 }
 
 figure.about-image:after {
@@ -96,10 +96,10 @@ figure.about-image:after {
     position: absolute;
     content: "";
     display: block;
-    top: 40px;
-    left: 20px;
-    right: 20px;
-    bottom: 20px;
+    top: 30px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     -webkit-transform: rotateY(-90deg);
@@ -112,8 +112,8 @@ figure.about-image:after {
 
 figure.about-image:hover figcaption,
 figure.about-image:hover figcaption {
-    width: 400px;
-    height: 500px;
+    width: 350px;
+    height: 450px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
     opacity: 1;
@@ -123,8 +123,8 @@ figure.about-image:hover figcaption {
 
 figure.about-image:hover:after,
 figure.about-image.hover:after {
-    width: 400px;
-    height: 500px;
+    width: 350px;
+    height: 450px;
     margin-left: auto;
     margin-right: auto;
     -webkit-transform: rotateX(0);
@@ -133,22 +133,23 @@ figure.about-image.hover:after {
 }
 
 #top-image {
-    width: 475px;
-    height: 575px;
-    margin-left: 60px;
+    min-width: 400px;
+    min-height: 525px;
+    margin-left: 30px;
 }
 
 #bottom-image {
-    width: 475px;
-    height: 575px;
-    margin-right: 60px;
+    min-width: 400px;
+    min-height: 525px;
+    margin-right: 30px;
+    margin-top: 15px;
 }
 
 
 .bottom-container {
-    font-size: 25px;
-    margin-top: 20px;
-    max-width: 110rem;
+    font-size: 18px;
+    max-width: 80rem;
+    line-height: 30px;
 }
 
 .bottom-section {
@@ -157,27 +158,26 @@ figure.about-image.hover:after {
 }
 
 .bottom-image {
-    margin-right: 60px;
+    margin-right: 30px;
 }
 
 .bottom-paras {
     flex-direction: column;
-    margin-left: 60px;
-    max-width: 70rem;
+    margin-left: 40px;
 }
 
 .last-para {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .skills-section {
     text-align: center;
-    margin-top: -40px;
+    margin-top: -50px;
 }
 
 .tech-logos {
-    margin-top: 30px;
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .skills-sub-section {
@@ -188,8 +188,8 @@ figure.about-image.hover:after {
 }
 
 .tech-logo {
-    height: 100px;
-    width: 100px;
+    height: 80px;
+    width: 80px;
     margin-left: 30px;
     margin-right: 30px;
 
@@ -211,9 +211,11 @@ figure.about-image.hover:after {
 .logo-tag {
     z-index: 1;
     width: 120px;
-    margin-left: -140px;
-    margin-top: 30px;
-    font-size: 25px;
+    height: 26px;
+    align-content: center;
+    margin-left: -130px;
+    margin-top: 15px;
+    font-size: 20px;
     opacity: 0;
     border-radius: 50px 50px;
 }
@@ -227,5 +229,5 @@ figure.about-image.hover:after {
 }
 
 .skills-header {
-    margin-top: 50px;
+    margin-top: 25px;
 }

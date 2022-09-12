@@ -68,9 +68,9 @@ const About = () => {
                 </div>
 
                 <div className="skills-section">
-                    <h1>Technologies I use:</h1>
+                    <h2>Technologies I use:</h2>
                     <div className="tech-logos">
-                        <h2>Languages:</h2>
+                        <h3>Languages:</h3>
                         <div className="skills-sub-section">
                             <img className="tech-logo" id="java" src={require("../assets/images/logos/java.png")} />
                             <p className="logo-tag">Java</p>
@@ -82,7 +82,7 @@ const About = () => {
                             <p className="logo-tag">Dart</p>
                         </div>
 
-                        <h2 className="skills-header">Front-end:</h2>
+                        <h3 className="skills-header">Front-end:</h3>
                         <div className="skills-sub-section">
                             <img className="tech-logo" id="react" src={require("../assets/images/logos/react.png")} />
                             <p className="logo-tag">React</p>
@@ -96,7 +96,7 @@ const About = () => {
                             <p className="logo-tag">CSS</p>
                         </div>
 
-                        <h2 className="skills-header">Back-end:</h2>
+                        <h3 className="skills-header">Back-end:</h3>
                         <div className="skills-sub-section">
                             <img className="tech-logo" id="spring" src={require("../assets/images/logos/spring.png")} />
                             <p className="logo-tag">Spring</p>

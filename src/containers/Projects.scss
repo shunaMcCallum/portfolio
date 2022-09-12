@@ -10,9 +10,9 @@
 
 .page-container>p {
     color: white;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 .projects-container {
@@ -32,23 +32,21 @@
 }
 
 .projects-image {
-    height: 280px;
-    width: 300px;
+    height: 250px;
+    width: 270px;
     margin-top: 10px;
-    margin-bottom: 40px;
-
+    margin-bottom: 20px;
     box-shadow: 5px 6px 10px 3px rgb(10, 9, 12);
 }
 
 figure.projects-image {
-    max-height: 320px;
-    max-width: 350px;
+    max-height: 270px;
+    max-width: 290px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     overflow: hidden;
-    width: 100%;
     color: #000000;
     text-align: center;
     -webkit-perspective: 50em;
@@ -64,10 +62,9 @@ figure.projects-image * {
 }
 
 figure.projects-image img {
-    max-width: 100%;
     vertical-align: top;
-    height: 320px;
-    width: 350px;
+    height: 270px;
+    width: 290px;
 }
 
 figure.projects-image figcaption {
@@ -76,8 +73,8 @@ figure.projects-image figcaption {
     display: flex;
     align-items: center;
     top: 50%;
-    left: 20px;
-    right: 20px;
+    left: 15px;
+    right: 15px;
     position: absolute;
     opacity: 0;
     z-index: 1;
@@ -85,19 +82,18 @@ figure.projects-image figcaption {
 
 figure.projects-image h4 {
     font-weight: 400;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 figure.projects-image:after {
     background-color: #ffffff;
-    margin-top: -5px;
     position: absolute;
     content: "";
     display: block;
-    top: 40px;
-    left: 20px;
-    right: 20px;
-    bottom: 20px;
+    top: 20px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
     -webkit-transform: rotateY(-90deg);
@@ -119,8 +115,8 @@ figure.projects-image:hover figcaption {
 
 figure.projects-image:hover:after,
 figure.projects-image:hover:after {
-    height: 225px;
-    width: 290px;
+    height: 220px;
+    width: 240px;
     margin-left: auto;
     margin-right: auto;
     -webkit-transform: rotateX(0);
@@ -131,7 +127,7 @@ figure.projects-image:hover:after {
 
 .projects-description {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -143,11 +139,11 @@ figure.projects-image:hover:after {
 }
 
 .projects-button {
-    height: 40px;
-    width: 120px;
-    margin-top: 10px;
+    height: 25px;
+    width: 100px;
+    margin-top: 0px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     color: white;
     background-color: darkorchid;

@@ -1,7 +1,7 @@
 .embla {
     overflow: hidden;
-    width: 650px;
-    height: 450px;
+    width: 600px;
+    height: 400px;
     margin-top: 50px;
 }
 
@@ -10,14 +10,14 @@
     margin-left: auto;
     margin-right: auto;
 
-    width: 370px;
-    height: 400px;
+    width: 320px;
+    height: 350px;
 }
 
 .embla__slide {
     flex: 0 0 100%;
-    width: 370px;
-    height: 400px;
+    width: 320px;
+    height: 350px;
     margin-left: 20px;
     margin-right: 20px;
     box-shadow: 4px 3px 10px 8px rgb(10, 9, 12);
