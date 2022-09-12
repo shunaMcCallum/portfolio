@@ -1,3 +1,27 @@
+@font-face {
+    font-family: "catamaran";
+    /*Can be any text*/
+    src: url("./assets/fonts/Catamaran-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "rampart";
+    /*Can be any text*/
+    src: url("./assets/fonts/RampartOne-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "tajawal";
+    /*Can be any text*/
+    src: url("./assets/fonts/Tajawal-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "telex";
+    /*Can be any text*/
+    src: url("./assets/fonts/Telex-Regular.ttf") format("truetype");
+}
+
 .app-container {
     background-color: rgb(34, 27, 35);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
