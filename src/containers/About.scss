@@ -1,0 +1,231 @@
+@import 'animate.css';
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    color: white;
+    margin-top: 30px;
+}
+
+.intro-para {
+    margin-top: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.top-container {
+    display: flex;
+    justify-content: center;
+}
+
+.top-paras {
+    flex-direction: column;
+    margin-right: 60px;
+    font-size: 25px;
+    max-width: 70rem;
+}
+
+.top-paras>ul {
+    text-align: left;
+    line-height: 35px;
+    font-size: 25px;
+}
+
+.top-paras>ul>li {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+figure.about-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    color: #000000;
+    text-align: center;
+    -webkit-perspective: 50em;
+    perspective: 50em;
+}
+
+figure.about-image * {
+    -webkit-box-sizing: padding-box;
+    box-sizing: padding-box;
+    -webkit-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+figure.about-image img {
+    max-width: 100%;
+    vertical-align: top;
+    width: 450px;
+    height: 550px;
+
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    box-shadow: 3px 2px 10px 8px black;
+}
+
+figure.about-image figcaption {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    left: 20px;
+    right: 20px;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+    width: 400px;
+    height: 500px;
+}
+
+figure.about-image h4 {
+    font-weight: 400;
+    font-size: 25px;
+}
+
+figure.about-image:after {
+    background-color: #ffffff;
+    position: absolute;
+    content: "";
+    display: block;
+    top: 40px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    -webkit-transform: rotateY(-90deg);
+    transform: rotateY(-90deg);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    opacity: 0;
+}
+
+figure.about-image:hover figcaption,
+figure.about-image:hover figcaption {
+    width: 400px;
+    height: 500px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 1;
+    -webkit-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+}
+
+figure.about-image:hover:after,
+figure.about-image.hover:after {
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-transform: rotateX(0);
+    transform: rotateX(0);
+    opacity: 0.9;
+}
+
+#top-image {
+    width: 475px;
+    height: 575px;
+    margin-left: 60px;
+}
+
+#bottom-image {
+    width: 475px;
+    height: 575px;
+    margin-right: 60px;
+}
+
+
+.bottom-container {
+    font-size: 25px;
+    margin-top: 20px;
+    max-width: 110rem;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-image {
+    margin-right: 60px;
+}
+
+.bottom-paras {
+    flex-direction: column;
+    margin-left: 60px;
+    max-width: 70rem;
+}
+
+.last-para {
+    margin-top: 40px;
+}
+
+.skills-section {
+    text-align: center;
+    margin-top: -40px;
+}
+
+.tech-logos {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.skills-sub-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.tech-logo {
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    z-index: 0;
+    position: relative;
+}
+
+@keyframes spin {
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.logo-tag {
+    z-index: 1;
+    width: 120px;
+    margin-left: -140px;
+    margin-top: 30px;
+    font-size: 25px;
+    opacity: 0;
+    border-radius: 50px 50px;
+}
+
+.logo-tag:hover {
+    color: white;
+    background-color: darkorchid;
+    opacity: 0.8;
+    animation: pulse 0.5s linear;
+    box-shadow: 5px 3px 10px 8px black;
+}
+
+.skills-header {
+    margin-top: 50px;
+}
