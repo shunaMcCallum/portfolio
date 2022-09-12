@@ -1,72 +1,72 @@
 import React from 'react';
-import "./Projects.css";
+import "./Projects.scss";
+import "./HomeContainer.scss";
 import { useNavigate } from "react-router-dom";
+import Header from '../components/Header';
+import Contact from '../components/Contact';
 
-const Projects = ({ projectButtonClick }) => {
+const Projects = () => {
+    const header = "My Projects";
+    const subHeader = "";
+
     const navigate = useNavigate();
 
+    const handleGymButtonClick = () => {
+        navigate("/shunamccallum.github.io/projects/the_gym")
+    }
 
-    const handleButtonClick = () => {
-        navigate("/portfolio/gym_app")
+    const handleEducationButtonClick = () => {
+        navigate("/shunamccallum.github.io/projects/hello_world")
+    }
+
+    const handleMusicButtonClick = () => {
+        navigate("/shunamccallum.github.io/projects/music_elephant")
     }
 
     return (
-        <div className="projects-container">
-            <h2>Projects</h2>
-            <div className="projects-images-container">
-                <img className="projects-image" id="gym-project" src={require("../images/gym_app_homepage.png")} />
-                <div className="projects-description">
-                    <p id="gym-project">Web application which allows gyms to manage members and fitness classes. Technologies used:</p>
-                    <ul>
-                        <li>Python</li>
-                        <li>Flask</li>
-                        <li>HTML5</li>
-                        <li>CSS</li>
-                        <li>SQLite3</li>
-                    </ul>
+        <div className="page-container">
+            <Header header={header} subHeader={subHeader} />
+            <p>Below are some of the projects I have worked on through my bootcamp course and self-study.</p>
+            <div className="projects-container">
+
+                <div className="projects">
+                    <figure className="projects-image" id="gym-image">
+                        <img src={require("../assets/images/gym_app/homepage.png")} alt="sq-sample26" />
+                        <figcaption>
+                            <h4>Web application which allows gyms to manage members and fitness classes.</h4>
+                        </figcaption>
+                    </figure>
                     <div className="more-info">
-                    <p id="gym-project">Click here to see more including demo: </p>
-                    <button className="projects-button" onClick={handleButtonClick}>More info</button>
+                        <button className="projects-button" onClick={handleGymButtonClick}>More info</button>
                     </div>
                 </div>
-            </div>
-            <div className="projects-images-container">
-                <img className="projects-image" src={require("../images/studio_ghibli_filmpage.png")} />
-                <div className="projects-description">
-                    <p id="ghibli-project">Movie site displaying information on films made by Studio Ghibli. Technologies used:</p>
-                    <ul>
-                        <li>JavaScript</li>
-                        <li>ReactJS</li>
-                        <li>External API</li>
-                        <li>CSS</li>
-                    </ul>
+
+                <div className="projects">
+                    <figure className="projects-image" id="hello-image">
+                        <img src={require("../assets/images/hello_world/flag_page_top.png")} alt="sq-sample26" />
+                        <figcaption>
+                            <h4>Interactive educational application designed to teach children about countries of the world.</h4>
+                        </figcaption>
+                    </figure>
                     <div className="more-info">
-                    <p id="ghibli-project">Click here to see more including demo: </p>
-                    <button className="projects-button">More info</button>
+                        <button className="projects-button" onClick={handleEducationButtonClick}>More info</button>
                     </div>
                 </div>
-            </div>
-            <div className="projects-images-container">
-                <img className="projects-image" src="https://pixel-mate.com/images/design/box-1-web-apps.png" />
-                <div className="projects-description">
-                    <p id="education-project">Interactive educational application all about countries of the world. Techologies used:</p>
-                    <ul>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                        <li>Note.js</li>
-                        <li>External API</li>
-                        <li>MongoDB</li>
-                        <li>Express</li>
-                        <li>CSS</li>
-                        <li>Leaflet</li>
-                    </ul>
+
+                <div className="projects">
+                    <figure className="projects-image" id="music-image">
+                        <img src={require("../assets/images/music_elephant/timeline_little_progress.png")} alt="sq-sample26" />
+                        <figcaption>
+                            <h4>Music theory mobile educational application.</h4>
+                        </figcaption>
+                    </figure>
                     <div className="more-info">
-                    <p id="education-project">Click here to see more including demo: </p>
-                    <button className="projects-button">More info</button>
+                        <button className="projects-button" onClick={handleMusicButtonClick}>More info</button>
                     </div>
-                </div>               
+                </div>
+
             </div>
-            <div className="projects-page-divider"></div>
+            <Contact />
         </div>
     )
 }

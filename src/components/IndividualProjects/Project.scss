@@ -1,0 +1,145 @@
+@import 'animate.css';
+
+.project-container {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 23px;
+}
+
+.project-intro {
+    font-size: 23px;
+    margin-top: 0px;
+    margin-bottom: 7px;
+    text-align: center;
+}
+
+.project-brief-container {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    min-width: 150vh;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+    box-shadow: 5px 6px 10px 3px rgb(10, 9, 12);
+}
+
+.project-brief-container>h2 {
+    text-align: center;
+}
+
+.project-brief {
+    font-size: 23px;
+    margin-top: 0px;
+    margin-bottom: 7px;
+    max-width: 140vh;
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.project-brief-list {
+    margin-top: 25px;
+    margin-bottom: 35px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-brief-list>li {
+    margin-bottom: 7px;
+}
+
+.project-para {
+    width: 140vh;
+    text-align: center;
+}
+
+.project-demo-container {
+    text-align: center;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    min-height: 600px;
+    min-width: 800px;
+}
+
+.project-demo-wrapper {
+    margin-top: -80px;
+    position: relative;
+    min-height: 600px;
+    min-width: 800px;
+}
+
+.project-demo-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.project-technologies {
+    text-align: center;
+    margin-top: -40px;
+}
+
+.project-logos {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.project-logo {
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.logo-tag {
+    z-index: 1;
+    width: 120px;
+    margin-left: -140px;
+    margin-top: 30px;
+    font-size: 25px;
+    opacity: 0;
+    border-radius: 50px 50px;
+}
+
+.logo-tag:hover {
+    color: white;
+    background-color: darkorchid;
+    opacity: 0.8;
+    animation: pulse 0.5s linear;
+    box-shadow: 5px 3px 10px 8px black;
+}
+
+@keyframes spin {
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+.project-list-header {
+    margin-top: 35px;
+    margin-bottom: -5px;
+    font-weight: bold;
+}
+
+.project-lists>li {
+    margin-bottom: 7px;
+}
+
+.project-lists {
+    margin-bottom: 5px;
+}
